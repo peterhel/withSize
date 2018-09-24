@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import JicklEventTarget from '../JicklEvent/JicklEventTarget';
+import EventTarget from './HomeMadeEventTarget';
 
 let resizing = false;
 let resizeTimout = null;
